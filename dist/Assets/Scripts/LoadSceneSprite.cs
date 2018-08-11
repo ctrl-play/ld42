@@ -6,42 +6,15 @@ using UnityEngine.SceneManagement;
 public class LoadSceneSprite : MonoBehaviour
 {
 
-
-
-    // SceneManager.LoadScene(3);
-    // Debug.Log("it worked");
-
-
-    // Use this for initialization
-    //void Start () {
-
-    //}
-
-
-
-
-
-
-    // Update is called once per frame
-
-    void Update()
+    private void OnMouseOver()
     {
-
-
-
         if (Input.GetMouseButtonDown(0))
-        { SceneManager.LoadScene(2); }
-       
-        
-              
-
-        //  }
-
-        //  }
-        
+        {
+            SceneManager.LoadScene(2);
+        }
     }
+
 }
-               
             
         
 
