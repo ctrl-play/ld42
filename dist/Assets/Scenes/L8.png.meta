@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 78a55ee83f4d645439bb7b443674a1e0
+guid: 4325bfd886dcd8742b2b64faf916a60d
 TextureImporter:
   fileIDToRecycleName:
-    21300000: L7_0
+    21300000: L8_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -85,21 +85,21 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: L7_0
+      name: L8_0
       rect:
         serializedVersion: 2
-        x: 529
-        y: 527
-        width: 184
-        height: 184
+        x: 520
+        y: 368
+        width: 120
+        height: 112
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27e1d9ee89073764f8103ce284dd1c8c
+      spriteID: 1072a6af95981ab43a6d942f746d5c4e
       vertices: []
       indices: 
       edges: []
@@ -107,7 +107,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5818f2fd8f63ea44aaef3ec22cb0d6ad
+    spriteID: fcd8a5b0bd6793c43b32ca2a9088b428
     vertices: []
     indices: 
     edges: []
