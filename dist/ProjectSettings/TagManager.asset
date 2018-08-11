@@ -44,3 +44,6 @@ TagManager:
   - name: Map
     uniqueID: 1733332279
     locked: 0
+  - name: Explore
+    uniqueID: 3707576841
+    locked: 0
