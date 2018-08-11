@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Water
+    uniqueID: 355468269
+    locked: 0
+  - name: Sand
+    uniqueID: 40742767
+    locked: 0
+  - name: Dirt
+    uniqueID: 1681859593
+    locked: 0
+  - name: Grass
+    uniqueID: 2407039495
+    locked: 0
+  - name: Grass2
+    uniqueID: 3163274037
+    locked: 0
