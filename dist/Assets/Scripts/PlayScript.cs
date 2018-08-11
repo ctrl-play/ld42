@@ -4,11 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayScript : MonoBehaviour {
+
+    public GameObject chooseCharacter;
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0) || Input.touchCount > 0)
         {
-            SceneManager.LoadScene(1);
+            if (!GameManager.Instance.haveChosenChar)
+            {
+                chooseCharacter.SetActive(true);
+            }
         }
     }
 }

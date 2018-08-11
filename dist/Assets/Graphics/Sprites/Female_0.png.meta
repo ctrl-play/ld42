@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 29cfcdf943d242d4c900e32f27f0d659
+guid: 3ec805e41e45a4144a80d06bc8c99549
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Island survivor clone_0
+    21300000: Female_0_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -81,25 +81,36 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Island survivor clone_0
+      name: Female_0_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 320
-        height: 304
+        x: 64
+        y: 16
+        width: 176
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74fafe41cef3fdc4d8f8b69db2d73948
+      spriteID: 0569ef3cf9dee2c4bb86a17f4c281060
       vertices: []
       indices: 
       edges: []
@@ -107,7 +118,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 70b9fc97c4cdbcf4fb4972284f54e6f0
+    spriteID: b782449d0e5ef5749a0ba83bf9b01c93
     vertices: []
     indices: 
     edges: []

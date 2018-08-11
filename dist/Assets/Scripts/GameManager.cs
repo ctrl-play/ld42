@@ -6,8 +6,9 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager Instance { get; private set; }
 
-    int characterType;
-    string loadType;
+    public int characterType;
+    public string loadType;
+    public bool haveChosenChar;
 
     private void Awake()
     {
