@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Explore.unity
     guid: 7ee850eb017f3844ba667aa7568fb083
+  - enabled: 1
+    path: Assets/Scenes/Days.unity
+    guid: f0030dd5088cf4446bd3ca2b36096360
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 0b4ef7fa8a155944e85dbec1b7288774
   m_configObjects: {}
