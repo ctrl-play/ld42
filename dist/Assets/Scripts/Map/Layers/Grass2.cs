@@ -21,7 +21,7 @@ public class Grass2 : MonoBehaviour {
         }
         if (Day == 9)
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
     }
 

@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour {
 
     public int characterType;
     public string loadType;
-    public bool haveChosenChar;
 
     private void Awake()
     {

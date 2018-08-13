@@ -14,11 +14,8 @@ public class PlayScript : MonoBehaviour {
         {
             if (main.activeSelf)
             {
-                if (!GameManager.Instance.haveChosenChar)
-                {
-                    info.SetActive(true);
-                }
                 info.SetActive(true);
+                main.SetActive(false);
             }
         }
     }
