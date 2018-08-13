@@ -18,6 +18,7 @@ public class PlayScript : MonoBehaviour {
                 {
                     info.SetActive(true);
                 }
+                info.SetActive(true);
             }
         }
     }
