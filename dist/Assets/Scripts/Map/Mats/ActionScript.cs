@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class ActionScript : MonoBehaviour {
 
-    int Energy2 = PlaceScript.number5;
+    public static int Energy2 = PlaceScript.number5;
     Text Energy;
     int StartingEnergy = 5;
 
