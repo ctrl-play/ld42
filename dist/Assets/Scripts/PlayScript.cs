@@ -5,15 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class PlayScript : MonoBehaviour {
 
-    public GameObject tutorial;
+    public GameObject info;
+    public GameObject main;
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0) || Input.touchCount > 0)
         {
-            if (!GameManager.Instance.haveChosenChar)
+            if (main.activeSelf)
             {
-                chooseCharacter.SetActive(true);
+                if (!GameManager.Instance.haveChosenChar)
+                {
+                    info.SetActive(true);
+                }
             }
         }
     }
