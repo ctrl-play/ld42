@@ -6,19 +6,13 @@ public class GameOverSceneScript : MonoBehaviour {
 
 
 
-
-
-
-    
-
-    public static void Quit()
+    void QuitButton()
     {
-       
 
         
-        
+        {
             Application.Quit();
-        
+        }
         
     }
 
@@ -28,8 +22,8 @@ public class GameOverSceneScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        
-    }
+		
+	}
 	
 	// Update is called once per frame
 	void Update () {
