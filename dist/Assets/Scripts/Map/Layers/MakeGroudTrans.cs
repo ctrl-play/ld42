@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MakeGroudTrans : MonoBehaviour {
 
 
@@ -13,14 +14,18 @@ public class MakeGroudTrans : MonoBehaviour {
     //void MakeLayerTransparent()
     //{
     //    Alpha = GameObject.Find("Sand").GetComponent<SpriteRenderer>();
-       
+
     //    Color tmp = Alpha.color;
     //    tmp.a = 0.3f;
     //    GetComponent<SpriteRenderer>().color = tmp;
 
     //}
+
+    
+
     void CheckDay()
     {
+        SpriteRenderer Alpha;
         int Day = EndTurnButton.click;
 
         if (Day >= 2 )
