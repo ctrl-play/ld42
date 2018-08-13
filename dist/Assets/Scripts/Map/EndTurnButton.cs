@@ -15,8 +15,7 @@ public class EndTurnButton : MonoBehaviour
     public void SaveNumberData()
     {
         if(click <= 8)
-       click++;
-        Debug.Log(click);
+        click++;
         SceneManager.LoadScene(2);
     }
 
