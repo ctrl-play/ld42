@@ -24,9 +24,7 @@ public class ActionScript : MonoBehaviour {
     public float percentRope = 0f;
     public float percent = 0f;
     public Text percentText;
-    public int day = EndTurnButton.click;
     public GameObject endTurnButton;
-    public Text dayText;
     public Text chanceOfSurvival;
     public float finishNumber;
     public Text missionStatus;
@@ -62,38 +60,38 @@ public class ActionScript : MonoBehaviour {
             }
             if (wood <= 45)
             {
-                percentWood = wood * 0.74f;
+                percentWood = wood * 0.6f;
             }
             else if (wood > 45)
             {
-                percentWood = 45 * 0.74f;
+                percentWood = 45 * 0.6f;
             }
 
             if (stone <= 45)
             {
-                percentStone = stone * 0.74f;
+                percentStone = stone * 0.6f;
             }
             else if (stone > 45)
             {
-                percentStone = 45 * 0.74f;
+                percentStone = 45 * 0.6f;
             }
 
             if (cloth <= 45)
             {
-                percentCloth = cloth * 0.74f;
+                percentCloth = cloth * 0.6f;
             }
             else if (cloth > 45)
             {
-                percentCloth = 45 * 0.74f;
+                percentCloth = 45 * 0.6f;
             }
 
             if (rope <= 15)
             {
-                percentRope = rope * .74f;
+                percentRope = rope * 0.6f;
             }
             else if (rope > 15)
             {
-                percentRope = 15 * .74f;
+                percentRope = 15 * 0.6f;
             }
         }
     }
@@ -107,11 +105,6 @@ public class ActionScript : MonoBehaviour {
 
     private void Update()
     {
-        dayText.text = "Day " + day.ToString();
-        if(day == 9)
-        {
-            endTurnButton.SetActive(false);
-        }
         percent = percentWood + percentStone + percentCloth + percentRope;
         System.Math.Round(percent, 2);
         if(percent > 100)
