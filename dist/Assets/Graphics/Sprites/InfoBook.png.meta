@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: a7e3b416cd2b8c24088de8db3d450725
+guid: ed159a5eec1408c439b9aea8266a2cce
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Moves_Action_0
+    21300000: InfoBook_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -96,13 +96,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Moves_Action_0
+      name: InfoBook_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 16
-        width: 144
-        height: 304
+        x: 64
+        y: 80
+        width: 320
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,7 +110,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf70bafd568c4a428aba496d35e7dd8
+      spriteID: 4574236e02cdb2740b892c2b51103428
       vertices: []
       indices: 
       edges: []
@@ -118,7 +118,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 96fea4490e2129541908d38e4526f73b
+    spriteID: 8141ee095b934c044a541c7796d41496
     vertices: []
     indices: 
     edges: []

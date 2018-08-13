@@ -17,7 +17,7 @@ public class EndTurnButton : MonoBehaviour
         if(click <= 8)
        click++;
         Debug.Log(click);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 
 
