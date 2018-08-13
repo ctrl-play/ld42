@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayScript : MonoBehaviour {
 
-    public GameObject chooseCharacter;
+    public GameObject tutorial;
 
     private void Update()
     {
