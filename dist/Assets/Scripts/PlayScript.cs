@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayScript : MonoBehaviour {
 
-    public GameObject tutorial;
+    public GameObject info;
 
     private void Update()
     {
@@ -13,7 +13,7 @@ public class PlayScript : MonoBehaviour {
         {
             if (!GameManager.Instance.haveChosenChar)
             {
-                chooseCharacter.SetActive(true);
+                info.SetActive(true);
             }
         }
     }

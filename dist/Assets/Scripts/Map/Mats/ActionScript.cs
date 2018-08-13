@@ -7,15 +7,15 @@ using UnityEngine.UI;
 
 public class ActionScript : MonoBehaviour {
 
-
+    int Energy2 = PlaceScript.number5;
     Text Energy;
     int StartingEnergy = 5;
 
 
-    void ActionNumber() {
+    public void ActionNumber() {
 
         Energy = GameObject.Find("Action Number").GetComponent<Text>();
-        Energy.text = StartingEnergy + " / 5";
+        Energy.text = --Energy2 + " / 5";
 
 
         Debug.Log(Energy);
