@@ -228,7 +228,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 87005826}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3efb491f031454db531243dfca5dee, type: 3}
   m_Name: 
@@ -2652,6 +2652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc6e79e90fc137c42ab6fd80ac898380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endTurnButton: {fileID: 933433928}
 --- !u!1 &1087534421
 GameObject:
   m_ObjectHideFlags: 0

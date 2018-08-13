@@ -7,10 +7,10 @@ public class Grass2 : MonoBehaviour {
 
 
     SpriteRenderer Alpha;
+    int Day = EndTurnButton.click;
 
     void CheckDay()
     {
-        int Day = EndTurnButton.click;
         if (Day >= 8)
         {
             Alpha = GameObject.Find("Grass2").GetComponent<SpriteRenderer>();
@@ -24,16 +24,8 @@ public class Grass2 : MonoBehaviour {
             SceneManager.LoadScene(3);
         }
     }
-
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
 	// Update is called once per frame
 	void Update () {
         CheckDay();
-
     }
 }

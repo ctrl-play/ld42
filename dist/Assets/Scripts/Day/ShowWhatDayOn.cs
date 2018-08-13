@@ -23,7 +23,7 @@ public class ShowWhatDayOn : MonoBehaviour {
 
     IEnumerator processTask()
     {
-        if(Day<=8)
+        if(Day <= 8)
         {
             yield return new WaitForSeconds(1);
             SceneManager.LoadScene(1);

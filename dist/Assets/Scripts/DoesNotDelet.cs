@@ -9,19 +9,13 @@ public class DoesNotDelet : MonoBehaviour {
 
     void Awake()
     {
-        
+
         if (Instance == null)
-       {
-           DontDestroyOnLoad(gameObject);
+        {
+            DontDestroyOnLoad(gameObject);
             Instance = this;
         }
-         if (Instance != this)
-        {
-            Destroy(gameObject);
-
-        }
     }
-
 
         // Use this for initialization
         void Start () {
