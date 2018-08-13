@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Grass2 : MonoBehaviour {
 
@@ -18,9 +19,9 @@ public class Grass2 : MonoBehaviour {
             tmp.a = 0.3f;
             GetComponent<SpriteRenderer>().color = tmp;
         }
-        if (Day > 9)
+        if (Day == 9)
         {
-            Object.Destroy(GameObject.Find("Grass2"));
+            SceneManager.LoadScene(4);
         }
     }
 

@@ -14,19 +14,26 @@ public class ShowWhatDayOn : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        
 
-        DayText = GameObject.Find("DayText").GetComponent<Text>();  
+        if (Day <= 8)
+        {
+            DayText = GameObject.Find("DayText").GetComponent<Text>();
             DayImage = GameObject.Find("DayImage");
             DayText.text = "Day " + Day;
             StartCoroutine(processTask());
+        }
+            
         
     }
 
     IEnumerator processTask()
     {
-        yield return new WaitForSeconds (1);
-        SceneManager.LoadScene(1);
+        if( Day<=8)
+        {
+            yield return new WaitForSeconds(1);
+            SceneManager.LoadScene(1);
+
+        }
 
 
     }
