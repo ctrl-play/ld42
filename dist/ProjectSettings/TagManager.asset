@@ -47,3 +47,6 @@ TagManager:
   - name: Explore
     uniqueID: 3707576841
     locked: 0
+  - name: Iteams
+    uniqueID: 2630813409
+    locked: 0
